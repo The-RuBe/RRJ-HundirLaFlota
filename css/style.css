@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+#flota {
+  width: 28%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(15, 30px);
+  gap: 5px;
+}
+
+.tablero {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+
+.agua {
+  background-color: skyblue;
+}
+
+.hundido {
+  background-color: red;
+}
